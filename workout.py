@@ -5,9 +5,9 @@ exercise_endpoint="https://trackapi.nutritionix.com/v2/natural/exercise"
 sheets_endpoint="https://api.sheety.co/d70dfebe12bbd2afa7b95998ad3015d1/workout/workouts"
 
 text=input("Tell me the excercise you did?:")
-
+# APP_ID="c6cc134d"
 APP_ID=os.getenv("APP_ID")
-
+# API_KEY="af84b3903a57cf04942e5550a9f98b38"
 API_KEY=os.getenv("API_KEY")
 headers={
     "x-app-id":APP_ID,
